@@ -1,0 +1,131 @@
+@font-face {
+    font-family: manropeSemibold;
+    src: url(./assets/fonts/Manrope-SemiBold.otf);
+  }
+@font-face {
+    font-family: manropeExtrabold;
+    src: url(./assets/fonts/Manrope-ExtraBold.otf);
+  }    
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: manropeSemibold;
+    background-color: #02122c;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+.loginBox{
+    margin-top: 22vh;
+    width: 45%;
+    height: 60%;
+    border: 1px solid #2a3e6a;
+    background-color: #2a3e6a;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+.logoImage{
+    margin-left: 10%;
+    height: 75%;
+    width: 60%;
+    margin-top: 10%;
+}
+.adminSystem h2{
+    color: white;
+}
+.adminSystem form{
+    margin-top: 12%;
+}
+.adminSystem button{
+    margin-top: 8%;
+    background-color: rgb(10, 10, 241);
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(10, 10, 241);
+    width: 80%;
+    padding: 10px;
+}
+
+.adminSystem input {
+    width: 80%;
+    color: #d9d9d9;
+    font-size: 18px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+.ginput_container input {
+    padding-left:50px;
+    padding-right: 20px;
+    background-image: url("./assets/icons/1.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 5px -0.2rem;
+}
+.ginput_container1 input {
+    padding-left:50px;
+    padding-right: 20px;
+    background-image: url("./assets/icons/2.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 5px -0.2rem;
+}
+
+.adminSystem input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    padding-bottom: 0px;
+    font-weight: 500;
+    opacity: 1; /* Firefox */
+  }
+  
+  .adminSystem input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  .adminSystem input::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+
+  @media screen and (max-width: 999px) {
+    .loginBox{
+        width: 100%;
+    }
+    .adminSystem input {
+        width: 100%;
+    }
+    
+  }
+  @media only screen and (max-width: 1000px) {
+    .adminSystem input {
+        width: 100%;
+    }
+    .loginBox{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        padding-right: 20px;
+        width: 80%;
+    }
+    .logoImage{
+        margin-left: -5%;
+    }
+    }
+
+    @media only screen and (max-width: 1500px) {
+        
+        .adminSystem input {
+            width: 80%;
+        }
+        .loginBox{
+            margin-top: 15%;
+            margin-bottom: 15%;
+            padding-right: 20px;
+            width: 80%;
+        }
+        } 
+

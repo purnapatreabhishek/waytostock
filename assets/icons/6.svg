@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810pt" height="809.999993pt" viewBox="0 0 810 809.999993" version="1.2">
+<defs>
+<clipPath id="clip1">
+  <path d="M 471 316 L 608.410156 316 L 608.410156 494 L 471 494 Z M 471 316 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 201.910156 316 L 340 316 L 340 494 L 201.910156 494 Z M 201.910156 316 "/>
+</clipPath>
+<clipPath id="clip3">
+  <path d="M 202 265.375 L 608 265.375 L 608 421 L 202 421 Z M 202 265.375 "/>
+</clipPath>
+<clipPath id="clip4">
+  <path d="M 202 422 L 608 422 L 608 544.128906 L 202 544.128906 Z M 202 422 "/>
+</clipPath>
+</defs>
+<g id="surface1">
+<rect x="0" y="0" width="810" height="809.999993" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<rect x="0" y="0" width="810" height="809.999993" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 608.738281 316.769531 L 608.738281 493.242188 L 471.585938 406.832031 Z M 608.738281 316.769531 "/>
+</g>
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 339.0625 406.832031 L 201.910156 493.242188 L 201.910156 316.769531 Z M 339.0625 406.832031 "/>
+</g>
+<g clip-path="url(#clip3)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 607.976562 286.941406 C 606.070312 274.804688 596 265.378906 583.3125 265.378906 L 227.335938 265.378906 C 214.648438 265.378906 204.582031 274.804688 202.671875 286.941406 L 405.324219 420.007812 Z M 607.976562 286.941406 "/>
+</g>
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 412.316406 445.753906 C 410.179688 447.148438 407.765625 447.832031 405.324219 447.832031 C 402.882812 447.832031 400.46875 447.148438 398.332031 445.753906 L 362.351562 422.113281 L 202.722656 522.742188 C 204.683594 534.777344 214.699219 544.128906 227.335938 544.128906 L 583.3125 544.128906 C 595.949219 544.128906 605.96875 534.777344 607.925781 522.742188 L 448.296875 422.136719 Z M 412.316406 445.753906 "/>
+</g>
+</g>
+</svg>
