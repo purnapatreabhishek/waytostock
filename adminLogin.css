@@ -41,15 +41,33 @@ body{
 .adminSystem form{
     margin-top: 12%;
 }
-.adminSystem button{
+.loginAndBuyButtons{
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.loginBtn{
     margin-top: 8%;
     background-color: #2E53FF;
-    font-family: 'Roboto';
+    font-family: 'manropeExtrabold';
     font-weight: 600;
     color: white;
     border-radius: 10px;
     border: 1px solid #2E53FF;
-    width: 80%;
+    width: 35%;
+    padding: 10px;
+}
+
+.buyBtn{
+    margin-top: 8%;
+    background-color: #FFB300;
+    font-family: 'manropeExtrabold';
+    font-weight: 600;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid #FFB300;
+    width: 35%;
     padding: 10px;
 }
 
